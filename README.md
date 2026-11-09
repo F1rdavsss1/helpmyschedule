@@ -193,6 +193,10 @@ pytest
 > другой хостинг. Бот учитывает переменные `HTTP(S)_PROXY`, поэтому прокси
 > PythonAnywhere подхватится сам.
 
+### alwaysdata — бесплатно 24/7 без банковской карты
+
+Пошаговая инструкция: **[docs/ALWAYSDATA.md](docs/ALWAYSDATA.md)**.
+
 ### Oracle Cloud Always Free — бесплатно 24/7
 
 Пошаговая инструкция: **[docs/ORACLE.md](docs/ORACLE.md)**. Если коротко, на сервере с Ubuntu нужно выполнить:
