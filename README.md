@@ -193,7 +193,20 @@ pytest
 > другой хостинг. Бот учитывает переменные `HTTP(S)_PROXY`, поэтому прокси
 > PythonAnywhere подхватится сам.
 
+### Oracle Cloud Always Free — бесплатно 24/7
+
+Пошаговая инструкция: **[docs/ORACLE.md](docs/ORACLE.md)**. Если коротко, на сервере с Ubuntu нужно выполнить:
+
+```bash
+git clone https://github.com/F1rdavsss1/helpmyschedule.git && cd helpmyschedule
+bash deploy/setup.sh      # спросит токен и запустит бота как службу systemd
+```
+
+Обновление: `bash deploy/update.sh`.
+
 ### Свой сервер / VPS (systemd)
+
+Проще всего запустить `bash deploy/setup.sh`: он сам создаст службу. Если хотите настроить вручную:
 
 ```ini
 # /etc/systemd/system/helpmyschedule.service
